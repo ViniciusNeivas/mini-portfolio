@@ -12,7 +12,8 @@
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
-    
+    <link rel="stylesheet" href="./src/css/scrolling.css">
+
     <title>Mini Portfolio</title>
 </head>
 
@@ -26,19 +27,17 @@
 
         <div class="contain">
             <ul class="tabs">
-                <li class="tab selected">
+                <li class="tab selected" id="about-me">
                     <img src="./src/image/about.gif" alt="Ícone Sobre Mim">
                 </li>
-                <li class="tab">
+                <li class="tab" id="my-social-networks">
                     <img src="./src/image/heart.gif" alt="Ícones das Redes Sociais">
                 </li>
             </ul>
 
             <div class="information-tab">
-
-                <div class="information selected">
+                <div class="information selected" id="informations-about-me">
                     <h3 class="subtitle">Sobre</h3>
-
                     <div class="description">
                         <p>Eu sou o Vinicius, tenho 31 anos, estou em transição de carreira, venho da área de elétrica
                             onde me formei como Eletricista de Manutenção e Técnico em Eletroeletrônica ambos os cursos
@@ -52,9 +51,8 @@
                     </div>
                 </div>
 
-                <div class="information">
+                <div class="information" id="informations-my-social-networks">
                     <h3 class="subtitle">Minhas Redes</h3>
-
                     <ul class="social-networks">
                         <li>
                             <a href="" target="_blank" class="resume">Curriculo</a>
@@ -67,14 +65,11 @@
                             <a href="https://github.com/ViniciusNeivas" target="_blank" class="github">GitHub</a>
                         </li>
                     </ul>
-
                 </div>
-
-
-
             </div>
         </div>
     </main>
+    <script src="./src/js/script.js"></script>
 </body>
 
 </html>
